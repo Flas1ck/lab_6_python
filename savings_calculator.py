@@ -1,5 +1,5 @@
 def savings_calculator():
-    print("--- Калькулятор накопичень ---")
+    print("Калькулятор накопичень")
     try:
         monthly_amount = float(input("Введіть суму, яку ви відкладаєте щомісяця (грн): "))
         months = int(input("Введіть кількість місяців: "))
@@ -12,4 +12,5 @@ def savings_calculator():
         current_balance += monthly_amount
         print(f"Місяць {i}: {current_balance} грн")
 if __name__ == "__main__":
+
     savings_calculator()
